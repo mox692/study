@@ -25,6 +25,8 @@
 ### issue トラッカ
 * https://github.com/rust-lang/rust/issues/43301
 
+### 追加された時のPR
+* https://github.com/rust-lang/rust/pull/48143
 ### 関連PR, issue
 * https://github.com/rust-lang/rust/pull/93840
 * https://github.com/rust-lang/rust/issues/43301
