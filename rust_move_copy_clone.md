@@ -8,7 +8,8 @@
 * *This change of ownership is good because if access was allowed through both v and v1 then you will end up with two stack objects pointing to the same heap buffer:*
   * 間違いない.
 * When a value is moved, Rust does a shallow copy; 
-  * 一般にこう言えそうかな 
+  * 一般にこう言えそうかな
+    * stackを指してるデータは、って感じかな
 * copyを実装しているObjectの代入(=)は、stack上に完全なる複製を作成する.
   * これはほとんど意識してなかったな-----
 * 同じものを参照していない(完全に別物)なので、borrow errorが起きない.
